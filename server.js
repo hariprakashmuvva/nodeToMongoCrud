@@ -5,7 +5,7 @@ const app= express();
 
 app.use(express.json())
 
-mongoose.connect('mongodb+srv://siva:oqralgg4dxlN1zkZ@cluster0.oxmcb.mongodb.net/?retryWrites=true&w=majority',{useUnifiedTopology:true, useNewUrlParser:true}).then(
+mongoose.connect('mongodb+srv://siva:YjnLOGz8hvFhBZGi@cluster0.oxmcb.mongodb.net/?retryWrites=true&w=majority',{useUnifiedTopology:true, useNewUrlParser:true}).then(
     ()=>console.log('DB connected....')
 ).catch(err => console.log(err))
 
