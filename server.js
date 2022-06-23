@@ -1,8 +1,10 @@
+
+
 const express =  require('express');
 const mongoose = require('mongoose');
 const BrandName = require('./model');
 const app= express();
-
+// Express json is a middle ware
 app.use(express.json())
 
 mongoose.connect('mongodb+srv://siva:YjnLOGz8hvFhBZGi@cluster0.oxmcb.mongodb.net/?retryWrites=true&w=majority',{useUnifiedTopology:true, useNewUrlParser:true}).then(
